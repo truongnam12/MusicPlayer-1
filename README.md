@@ -21,7 +21,7 @@ NOTE: Make sure you have started a VoiceChat in your Group before deploying.
 ### Deploy to VPS
 
 ```sh
-git clone https://github.com/subinps/MusicPlayer
+git clone https://github.com/truongnam12/MusicPlayer-1
 cd MusicPlayer
 pip3 install -r requirements.txt
 # <Create Variables appropriately>
