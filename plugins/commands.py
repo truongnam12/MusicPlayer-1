@@ -76,34 +76,22 @@ You can also use <code>/splay song name</code> to play a song from Jio Saavn or 
 async def start(client, message):
     buttons = [
         [
-        InlineKeyboardButton('⚙️ Update Channel', url='https://t.me/subin_works'),
-        InlineKeyboardButton('🧩 Source', url='https://github.com/subinps/MusicPlayer'),
+        InlineKeyboardButton('dhdh', url='https://t.me/giaoluuvn'),
+        InlineKeyboardButton('🧩sdafasfw', url='https://github.com/subinps/MusicPlayer'),
     ],
     [
-        InlineKeyboardButton('👨🏼‍🦯 Help', callback_data='help'),
+
         
     ]
     ]
-    reply_markup = InlineKeyboardMarkup(buttons)
-    m=await message.reply(HOME_TEXT.format(message.from_user.first_name, message.from_user.id), reply_markup=reply_markup)
-    await mp.delete(m)
-    await mp.delete(message)
+   
 
 
 
-@Client.on_message(filters.command(["help", f"help@{U}"]))
-async def show_help(client, message):
     buttons = [
         [
-        InlineKeyboardButton('⚙️ Update Channel', url='https://t.me/subin_works'),
-        InlineKeyboardButton('🧩 Source', url='https://github.com/subinps/MusicPlayer'),
+        InlineKeyboardButton('fghfj', url='https://t.me/ghfth'),
+        InlineKeyboardButton('gfh', url='https://github.com/subinps/MusicPlayer'),
     ]
     ]
-    reply_markup = InlineKeyboardMarkup(buttons)
-    if msg.get('help') is not None:
-        await msg['help'].delete()
-    msg['help'] = await message.reply_text(
-        HELP,
-        reply_markup=reply_markup
-        )
-    await mp.delete(message)
+    
