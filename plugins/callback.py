@@ -206,31 +206,5 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 ])
 
         try:
-            await query.edit_message_text(f"{emoji.PLAY_OR_PAUSE_BUTTON} Skipped\n\n{pl}",
-                disable_web_page_preview=True,
-                reply_markup=InlineKeyboardMarkup(
-                    [
-                        [
-                            InlineKeyboardButton("🔄", callback_data="replay"),
-                            InlineKeyboardButton("⏯", callback_data="pause"),
-                            InlineKeyboardButton("⏩", callback_data="skip")
-                        ],
-                    ]
-                )
-            )
-        except MessageNotModified:
-            pass
-
-    elif query.data=="help":
-        buttons = [
-            [
-                InlineKeyboardButton('gídfs', url='https://t.me/giaoluuvn'),
-                InlineKeyboardButton('sđsd', url='https://github.com/subinps/MusicPlayer'),
-            ]
-        ]
-        
-
-            )
-        except MessageNotModified:
-            pass
-
+           
+                       
