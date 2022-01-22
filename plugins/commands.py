@@ -77,21 +77,6 @@ async def start(client, message):
     buttons = [
         [
         InlineKeyboardButton('dhdh', url='https://t.me/giaoluuvn'),
-        InlineKeyboardButton('🧩sdafasfw', url='https://github.com/subinps/MusicPlayer'),
-    ],
-    [
-
         
-    ]
-    ]
-   
 
-
-
-    buttons = [
-        [
-        InlineKeyboardButton('fghfj', url='https://t.me/ghfth'),
-        InlineKeyboardButton('gfh', url='https://github.com/subinps/MusicPlayer'),
-    ]
-    ]
     
